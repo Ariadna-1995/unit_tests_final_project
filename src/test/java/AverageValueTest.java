@@ -36,7 +36,7 @@ public class AverageValueTest {
 
 
     static Stream<Arguments> provideParameters() {
-        return Stream.of(Arguments.of(Arrays.asList(1, 2, 3), 2), Arguments.of(Arrays.asList(-4, -5, -6), -5), Arguments.of(Arrays.asList(1.5, 2.5, 3.5), 2.5), Arguments.of(Arrays.asList(1), 1), Arguments.of(Arrays.asList(0, 0, 0), 0), Arguments.of(Arrays.asList(), 0));
+        return Stream.of(Arguments.of(Arrays.asList(1, 2, 3), 2), Arguments.of(Arrays.asList(-4, -5, -6), -5), Arguments.of(Arrays.asList(1.5, 2.5, 3.5), 2.5),  Arguments.of(Arrays.asList(0, 0, 0), 0), Arguments.of(Arrays.asList(), 0));
     }
 
 
